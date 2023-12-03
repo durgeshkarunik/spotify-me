@@ -1,0 +1,455 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    #222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+  overflow: hidden;
+}
+
+/* grid */
+
+.grid {
+  display: grid;
+}
+
+.grid--1-cols {
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1.25fr 8.75fr;
+}
+
+.grid--3-equal-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: 1.5fr 7.5fr 1fr;
+}
+
+.grid--2-row {
+  grid-template-rows: 3fr 7fr;
+}
+
+/* flex */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/* position */
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+/* left section */
+.left-section {
+  grid-row: 1/-1;
+  background-color: rgb(0, 0, 0);
+}
+
+.left-section-body {
+  height: 83%;
+  gap: 2rem;
+  /* gap: 5rem; */
+}
+
+.spotify-logo img {
+  width: 55%;
+  margin-top: 3rem;
+  margin-left: 3.2rem;
+}
+
+.home-img img,
+.search-img img,
+.library-img img {
+  margin-right: 2rem;
+}
+
+.home-text,
+.search-text,
+.library-text {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -1.14px;
+}
+
+.episodes-logo,
+.songs-logo,
+.playlist-logo {
+  margin-right: 2rem;
+}
+
+.playlist-text,
+.songs-text,
+.episodes-text {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.997px;
+}
+
+.home {
+  background: #282828;
+  border-radius: 8px;
+}
+
+.home,
+.search,
+.library,
+.playlist,
+.songs,
+.episodes {
+  padding: 1rem 2.5rem;
+  width: 96%;
+  margin-inline: auto;
+}
+
+.playlist-logo-symbol,
+.songs-logo-symbol,
+.episodes-logo-symbol {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.dailymix-list {
+  margin-left: 3rem;
+  gap: 2.3rem;
+  list-style: none;
+}
+
+.dailymix-list li {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -1.567px;
+}
+
+.install-app {
+  margin-top: auto;
+  margin-left: 3rem;
+}
+
+.install-app-logo {
+  margin-right: 2rem;
+}
+
+.install-app-text {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.997px;
+}
+
+/* mid top */
+.mid-top-section {
+  padding-top: 7.5rem;
+  padding-left: 5rem;
+  gap: 3rem;
+  padding-right: 6rem;
+}
+
+.recent-playlist {
+  row-gap: 1.5rem;
+  column-gap: 2rem;
+}
+
+.good-morning-text {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.recent-block-img {
+  width: 22%;
+}
+
+.recent-block {
+  background: #303030;
+  border-radius: 5px;
+}
+
+.recent-block-text {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.recent-block-img {
+  margin-right: 2rem;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.dance-mix {
+  width: 16rem;
+}
+
+/* mid-bottom */
+.mid-bottom-section {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding-right: 20rem;
+}
+
+.shows-you-might-text {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: -1.16px;
+  margin-bottom: 1rem;
+}
+
+.artist-list {
+  column-gap: 3rem;
+  row-gap: 3rem;
+  overflow: hidden;
+}
+
+.artist-image {
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+.artist-box {
+  background: #181818;
+}
+
+.art-box-text {
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 3rem;
+  margin-top: 2.75rem;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+  padding-bottom: 2rem;
+}
+
+.artist-label {
+  color: #b3b3b3;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  padding-left: 3rem;
+  bottom: -2%;
+}
+
+.artist-small-box {
+  background: #181818;
+}
+
+.artist-small-box img {
+  display: block;
+  width: 80%;
+  margin-top: 2rem;
+  margin-inline: auto;
+}
+
+/* song player */
+
+.song-player {
+  position: fixed;
+  bottom: 2.5%;
+  width: 100%;
+  background-color: #181818;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.song-playing-img img {
+  width: 90%;
+}
+.song-name {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.9px;
+}
+.artist-title {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.75px;
+}
+.song-playing-text {
+  margin-inline: 1.25rem;
+}
+
+.music-player {
+  margin-inline: auto;
+}
+
+.player-controls {
+  width: 30%;
+}
+
+.music-player-song-length {
+  width: 63rem;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #535353;
+  margin-inline: 1rem;
+}
+
+.music-player-seeker {
+  width: 51rem;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #c4c4c4;
+}
+
+.right-player-options {
+  gap: 2rem;
+}
+
+.listening-on-device {
+  width: 100%;
+  bottom: 0%;
+  position: absolute;
+  background: #1ed760;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.2rem 10rem;
+}
+
+.listening-on-device-arrow {
+  position: absolute;
+  right: 22.75rem;
+  top: -11px;
+}
+
+.listening-on-device-img {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.song-duration {
+  font-size: 1.4rem;
+  color: #c4c4c4;
+}
+
+/* arrow */
+
+.top-arrow-navigation {
+  top: 5%;
+  left: 1%;
+}
+
+.arrows {
+  gap: 2rem;
+}
+
+.left-arrow-symbol,
+.right-arrow-symbol {
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+}
+
+/* user */
+.user-body {
+  width: 14rem;
+  gap: 1.5rem;
+  right: 10%;
+  top: 2.5%;
+  border-radius: 33px;
+  background: #0a0a0a;
+}
+
+.user-img img {
+  display: block;
+  padding: 0.2rem;
+}
+
+.user-name {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.user-down-arrow svg {
+  padding-right: 0.2rem;
+}
+
+.next-page > a {
+  text-decoration: none;
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  color: #b3b3b3;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.68px;
+}
+
+/* right section */
+.right-section {
+  grid-row: 1/-1;
+  grid-column: 3;
+}
+
+/* media */
+
+
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+}

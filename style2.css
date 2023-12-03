@@ -1,0 +1,356 @@
+/* playlist page */
+/* main body playlist */
+.main-body--playlist {
+  background: linear-gradient(180deg, #90aea7 0%, #000 89.7%);
+  position: relative;
+  width: 1903px;
+  height: 1116px;
+}
+
+/* left whole section */
+.left-section-body--playlist {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 230px;
+  height: 1080px;
+  background: #000;
+}
+
+/* left bottom div element */
+.left-text--playlist {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  opacity: 0.7;
+}
+
+/* left top div spotify logo */
+.spotify-logo--playlist {
+  margin-top: 19px;
+  margin-left: 24px;
+}
+/* left mid div  */
+.left-options-top--playlist {
+  margin: 25px auto;
+}
+/* left mid div element */
+.left-nav--playlist {
+  width: 216px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-start;
+}
+
+/* left mid div element img*/
+.left-nav-svg-playlist {
+  margin: 8px 16px;
+}
+
+/* left mid div element property */
+#home-play {
+  border-radius: 4px;
+  background: #282828;
+}
+/* left mid div element text */
+#home-text {
+  opacity: 1;
+}
+
+/* left bottom div element playlist property*/
+#playlist--text {
+  color: #b3b3b3;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-left: 23px;
+  margin-bottom: 12px;
+}
+/* left bottom div element  */
+.left-mid--options {
+  display: flex;
+  align-items: center;
+}
+/* left bottom div element img  */
+.left-mid--svg {
+  margin: 5px 16.5px 5px 23px;
+}
+/* left bottom div horizontal line  */
+#horizontal--line {
+  width: 184px;
+  height: 1px;
+  background: #282828;
+  margin-left: 23px;
+  margin-top: 8px;
+}
+
+/* artist image left bottom */
+.artist-image {
+  position: absolute;
+  left: 0px;
+  top: 757px;
+}
+
+/* mid top div*/
+.mid--top {
+  position: absolute;
+  left: 265.5px;
+  top: 146px;
+  height: 233.1px;
+  width: 862.5px;
+}
+/* mid top image*/
+.pop-right-now--image {
+  margin-right: 24.5px;
+}
+/* playlist text */
+#pop-top--text {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.26px;
+}
+/* pop right now text */
+#pop-heading--text {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.8px;
+}
+/* lorem desc text */
+#pop-desc--text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 146.9%;
+  letter-spacing: -0.28px;
+  opacity: 0.7;
+}
+
+/* footer spotify text */
+#spotify--text {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 146.9%;
+  letter-spacing: -0.3px;
+}
+/* footer song stats text */
+.pop-text--footer {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  opacity: 0.7;
+}
+
+/* mid body bottom */
+.mid--bottom {
+  height: 624px;
+  width: 1673px;
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 230px;
+  top: 402px;
+}
+
+/* green play button div */
+.play-button--list {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+/* green play button div like img */
+.like--svg {
+  margin-right: 9px;
+  margin-left: 27px;
+}
+
+/* seperator */
+
+.album-title--date {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.32px;
+}
+
+.seperator--line {
+  width: 1620px;
+  height: 1px;
+  opacity: 0.1;
+  background: #fff;
+}
+
+#album--text {
+  margin-left: 580px;
+  margin-right: 430px;
+}
+
+/* all album list div */
+.album--list {
+  margin-left: 35px;
+  width: 1620px;
+  height: 462px;
+}
+
+/*one album info div */
+.song--list {
+  width: 100%;
+  height: 54px;
+}
+/* play button text */
+.play--text {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18.188px;
+}
+
+/* song image */
+.song--image {
+  margin-left: 16px;
+  margin-right: 14.5px;
+}
+
+/* song info div */
+.song--info {
+  margin-left: 18px;
+}
+
+/* song name */
+.song--name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.188px;
+}
+/* artist name */
+.artist--name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* album name text */
+.album--name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* first album property */
+#first-ablum-info {
+  border-radius: 5px;
+  background-color: #ffffff1c;
+}
+
+/* date added text */
+.date--added {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+}
+
+/* song-time-div */
+.song--time {
+  width: 100px;
+  margin-right: 15px;
+}
+
+/* song duration text */
+.song--duration {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+#info-button {
+  margin-left: 15px;
+}
+
+/* player */
+.playlist-bottom--player {
+  width: 1903px;
+  height: 93px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: #181818;
+}
+/* whole song and plaer details div */
+.song-details--player {
+  width: 99%;
+  margin-inline: auto;
+  margin-top: 18px;
+}
+
+/* song details div */
+.song-info--text {
+  width: 223px;
+}
+
+.player--song {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.188px;
+}
+
+.player-song--artist {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.player-song--details {
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 17px;
+}
+
+.player--likes {
+  margin-right: 13px;
+}
+
+.player-controls--playlist {
+  width: 234px;
+  height: 34px;
+}
+
+.music-player--playlist {
+  width: 742.281px;
+  height: 63.188px;
+  flex-shrink: 0;
+  margin-right: 200px;
+}
+
+.music-song--length {
+  width: 673.849px;
+  height: 4.547px;
+  border-radius: 2.273px;
+  background: #b3b3b3;
+  margin-inline: 6px;
+}
+
+.seeker--duration {
+  color: #b3b3b3;
+  text-align: center;
+  font-size: 12.504px;
+  font-weight: 400;
+  line-height: 18.188px;
+}

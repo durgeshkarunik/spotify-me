@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Spotify Clone</title>
+  </head>
+  <body>
+    <main class="container grid grid--3-cols grid--2-row">
+      <div class="left-section">
+        <div class="left-section-body flex flex-column">
+          <!-- spotify logo -->
+          <div class="spotify-logo">
+            <img src="./Images/Spotify logo.png" alt="" />
+          </div>
+
+          <!-- home search library -->
+          <div class="home-search-library flex flex-column">
+            <div class="home flex align-items">
+              <div class="home-img">
+                <img src="./Images/home.png" alt="" />
+              </div>
+              <div class="home-text">Home</div>
+            </div>
+            <div class="search flex align-items">
+              <div class="search-img">
+                <img src="./Images/search.png" alt="" />
+              </div>
+              <div class="search-text">Search</div>
+            </div>
+            <div class="library flex align-items">
+              <div class="library-img">
+                <img src="./Images/library.png" alt="" />
+              </div>
+              <div class="library-text">Your Library</div>
+            </div>
+          </div>
+
+          <!-- playlist song episode -->
+          <div class="playlist-song-episode">
+            <!-- playlist -->
+            <div class="playlist flex align-items">
+              <!-- playlist logo -->
+              <div class="playlist-logo position-relative">
+                <img
+                  class="playlist-logo-symbol position-absolute"
+                  src="./Images/Create-Playlist-Img.png"
+                  alt=""
+                />
+                <img
+                  class="playlist-logo-background"
+                  src="./Images/Create-Playlist-Background-Img.png"
+                  alt=""
+                />
+              </div>
+              <!-- playlist text -->
+              <div class="playlist-text">Create Playlist</div>
+            </div>
+
+            <!-- songs -->
+            <div class="songs flex align-items">
+              <!-- songs logo -->
+              <div class="songs-logo position-relative">
+                <img
+                  class="songs-logo-symbol position-absolute"
+                  src="./Images/Liked-Songs-Img-2.png"
+                  alt=""
+                />
+                <img
+                  class="songs-logo-background position-relative"
+                  src="./Images/Liked-Songs-Background-Img.png"
+                  alt=""
+                />
+              </div>
+              <!-- songs text -->
+              <div class="songs-text">Liked Songs</div>
+            </div>
+
+            <!-- episodes -->
+            <div class="episodes flex align-items">
+              <!-- episodes logo -->
+              <div class="episodes-logo position-relative">
+                <img
+                  class="episodes-logo-symbol position-absolute"
+                  src="./Images/Your-Episodes-Img.png"
+                  alt=""
+                />
+                <img
+                  class="episodes-logo-background position-relative"
+                  src="./Images/Your-Episodes-Background-Img.png"
+                  alt=""
+                />
+              </div>
+              <!-- episodes text -->
+              <div class="episodes-text">Your Episodes</div>
+            </div>
+          </div>
+
+          <!-- Daily Mix -->
+          <div class="dailymix">
+            <ul class="dailymix-list flex flex-column">
+              <li>FAV</li>
+              <li>Daily Mix 1</li>
+              <li>Discover Weekly</li>
+              <li>Malayalam</li>
+              <li>Dance/Electronix Mix</li>
+              <li>EDM/Popular</li>
+            </ul>
+          </div>
+
+          <!-- Install app -->
+          <div class="install-app flex align-items">
+            <div class="install-app-logo">
+              <img src="./Images/Install-App-Img.png" alt="" />
+            </div>
+            <div class="install-app-text">Install App</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- good morning mid-top-section -->
+      <div class="mid-top-section flex flex-column position-relative">
+        <div class="good-morning-text">
+          <h2>Good Morning</h2>
+        </div>
+        <!-- songs playlist da electronic -- recent-playlist-->
+        <div class="recent-playlist grid grid--3-equal-cols">
+          <!-- Liked songs -->
+          <div class="recent-block flex align-items">
+            <img
+              class="recent-block-img"
+              src="./Images/Title-liked-songs.png"
+              alt=""
+            />
+            <div class="recent-block-text">Liked Songs</div>
+          </div>
+          <!-- Neffex Playlist -->
+          <div class="recent-block flex align-items">
+            <img
+              class="recent-block-img"
+              src="./Images/Title-neffex-playlist.png"
+              alt=""
+            />
+            <div class="recent-block-text">Neffex Playlist</div>
+          </div>
+          <!-- K/DA -->
+          <div class="recent-block flex align-items">
+            <img class="recent-block-img" src="./Images/Title-Kda.jpg" alt="" />
+            <div class="recent-block-text">K/DA</div>
+          </div>
+          <!-- Dance / Electronic Mix -->
+          <div class="recent-block flex align-items">
+            <img
+              class="recent-block-img"
+              src="./Images/Title-electronic.png"
+              alt=""
+            />
+            <div class="recent-block-text dance-mix">
+              Dance / Electronic Mix
+            </div>
+          </div>
+        </div>
+
+        <section
+          class="top-arrow-navigation position-absolute flex align-items"
+        >
+          <div class="arrows flex">
+            <div class="left-arrow position-relative">
+              <img
+                class="left-arrow-symbol position-absolute"
+                src="./Images/arrow-small-left.png"
+                alt=""
+              />
+              <img
+                class="left-circle-background"
+                src="./Images/top-arrow-circle.png"
+                alt=""
+              />
+            </div>
+            <div class="right-arrow position-relative">
+              <img
+                class="right-arrow-symbol position-absolute"
+                src="./Images/arrow-small-right.png"
+                alt=""
+              />
+              <img
+                class="right-circle-background"
+                src="./Images/top-arrow-circle.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="mid-bottom-section">
+        <div class="shows-you-might-text">
+          <h2>Shows you might like</h2>
+        </div>
+
+        <div class="artist-list grid grid--4-cols">
+          <div class="artist-box flex flex-column position-relative">
+            <img class="artist-image" src="./Images/art-one.png" alt="" />
+            <div class="art-box-text">Weekly Motivatio...</div>
+            <div class="artist-label position-absolute">Ben Ina Scott</div>
+          </div>
+
+          <div class="artist-box flex flex-column position-relative">
+            <img class="artist-image" src="./Images/art-two.png" alt="" />
+            <div class="art-box-text">MEDITATION SELF</div>
+            <div class="artist-label position-absolute">Samuel Scott</div>
+          </div>
+
+          <div class="artist-box flex flex-column position-relative">
+            <img class="artist-image" src="./Images/art-three.png" alt="" />
+            <div class="art-box-text">Words beyond act...</div>
+            <div class="artist-label position-absolute">Samuel Scott</div>
+          </div>
+
+          <div class="artist-box flex flex-column position-relative">
+            <img class="artist-image" src="./Images/art-four.png" alt="" />
+            <div class="art-box-text">The Alexa Show</div>
+            <div class="artist-label position-absolute">Adriana Tom</div>
+          </div>
+
+          <div class="artist-small-box">
+            <img
+              class="artist-small-image"
+              src="./Images/art-four.png"
+              alt=""
+            />
+          </div>
+
+          <div class="artist-small-box">
+            <img
+              class="artist-small-image"
+              src="./Images/art-four.png"
+              alt=""
+            />
+          </div>
+
+          <div class="artist-small-box">
+            <img
+              class="artist-small-image"
+              src="./Images/art-four.png"
+              alt=""
+            />
+          </div>
+
+          <div class="artist-small-box">
+            <img
+              class="artist-small-image"
+              src="./Images/art-four.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="song-player flex align-items">
+        <div class="song-playing-section flex align-items">
+          <div class="song-playing-img">
+            <img src="./Images/artist-image-down-options.png" alt="" />
+          </div>
+          <div class="song-playing-text">
+            <div class="song-name">Dreaming On</div>
+            <div class="artist-title">NEFFEX</div>
+          </div>
+          <div class="song-like-img">
+            <img src="./Images/green-heart-image-down-options.png" alt="" />
+          </div>
+        </div>
+
+        <div class="music-player flex flex-column align-items">
+          <div class="player-controls flex align-items justify-content-between">
+            <div>
+              <img src="./Images/music-player-shuffle.png" alt="" />
+            </div>
+            <div>
+              <img src="./Images/music-player-previous.png" alt="" />
+            </div>
+            <div>
+              <img src="./Images/music-player-play.png" alt="" />
+            </div>
+            <div>
+              <img src="./Images/music-player-next.png" alt="" />
+            </div>
+            <div>
+              <img src="./Images/music-player-repeat.png" alt="" />
+            </div>
+          </div>
+
+          <div class="duration flex align-items">
+            <div class="song-duration">2:11</div>
+            <div class="music-player-song-length">
+              <div class="music-player-seeker"></div>
+            </div>
+            <div class="song-duration">2:42</div>
+          </div>
+        </div>
+
+        <div class="right-player-options flex align-items">
+          <div>
+            <img src="./Images/down-options-right-mic.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/down-options-right-query.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/down-options-right-laptop.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/down-options-right-speaker.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/down-options-right-seeker.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/down-options-right-mute.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="listening-on-device flex align-items">
+        <img
+          class="listening-on-device-img"
+          src="./Images/listening-on-device-speaker.png"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="21"
+          height="11"
+          viewBox="0 0 21 11"
+          fill="none"
+          class="listening-on-device-arrow"
+        >
+          <path d="M10.6998 0L0.799805 11H20.5998L10.6998 0Z" fill="#1ED760" />
+        </svg>
+        <div class="listening-on-device-text">Listening on ASUS-ROG-G531GT</div>
+      </div>
+
+      <div class="right-section position-relative">
+        <section class="user-body position-absolute flex align-items">
+          <div class="user-img">
+            <img src="./Images/user-image.png" />
+          </div>
+          <div class="user-name">Angel</div>
+          <div class="user-down-arrow">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="24"
+              viewBox="0 0 21 24"
+              fill="none"
+            >
+              <path
+                d="M4.37524 9H16.6252L11.1189 15.293C10.9548 15.4805 10.7323 15.5858 10.5002 15.5858C10.2682 15.5858 10.0457 15.4805 9.88162 15.293L4.37524 9Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </section>
+
+        <div class="next-page"><a href="./playlist.html">SEE ALL</a></div>
+      </div>
+    </main>
+  </body>
+</html>
